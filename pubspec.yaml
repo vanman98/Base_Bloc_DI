@@ -1,0 +1,77 @@
+name: temp_package_name
+description: temp_package_description
+
+version: 1.0.1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+ 
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.2
+  bloc: ^8.1.1
+  get_it: ^7.2.0
+  easy_localization: ^3.0.2
+  go_router: ^7.1.1
+  flutter_screenutil: ^5.7.0  
+
+  cupertino_icons: ^1.0.5
+  dio: ^5.1.1
+  logger: ^1.3.0
+  connectivity_plus: ^3.0.3
+  hive: ^3.0.0-dev
+  path_provider: ^2.0.14 
+  cached_network_image: ^3.2.3
+  flutter_svg: ^2.0.4
+  image_picker: ^0.8.7+1
+  image_cropper: ^3.0.2
+  flutter_keyboard_visibility: ^5.4.0
+  modal_bottom_sheet: ^2.1.2
+  flutter_staggered_animations: ^1.1.1
+  auto_size_text: ^3.0.0
+  google_fonts: ^4.0.3 
+  file: ^6.1.4
+  url_strategy: ^0.2.0
+  flutter_portal: ^1.1.3
+  flutter_native_splash: ^2.2.19 
+  dotted_border: ^2.0.0+3
+  intl: ^0.18.0
+  gap: ^2.0.1
+    
+  _imagineeringwithus_pack:
+    path: ../imagineeringwithus_pack
+
+dependency_overrides:
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.0
+  flutter_lints: ^2.0.1
+ 
+  auto_route_generator: ^7.1.1                   
+  build_runner:   
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/png/logo_1024.png"
+
+jsonToDart:
+  typeChecking: true  #default: undefined (Select from picker)
+  nullValueDataType: dynamic #default: dynamic
+  nullSafety: true #default: false
+  copyWithMethod: false #default: false
+  mergeArrayApproach: false #default: true 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/l10n/
+    - assets/images/ 
+    - assets/images/svg/ 
+    - assets/images/png/ 
